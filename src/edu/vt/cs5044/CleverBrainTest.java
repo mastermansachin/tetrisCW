@@ -5,7 +5,8 @@ import edu.vt.cs5044.tetris.*;
 import org.junit.*;
 
 public class CleverBrainTest {
-	private Brain brain;
+	// initializes object for result we should get (brain) and result which we get (cleverBrain)
+	private Brain brain; 
 	private CleverBrain cleverBrain;
 
 	@Before
